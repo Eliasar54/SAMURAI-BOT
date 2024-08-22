@@ -241,7 +241,7 @@ ${cpus[0] ? `\`❐ Uso total de CPU\`
 ${cpus[0].model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}
 _Uso de núcleo(s) de CPU (${cpus.length} CPU central)_
 ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}`).join('\n\n')}` : ''}`.trim()
-conn.sendButton(m.chat, botname, respon, pickRandom([img, img1, img2]), [['𝐌𝐄𝐍𝐔', `.menu`], ['𝐆𝐑𝐔𝐏𝐎𝐒', `.grupos`]], null, [['𝐒𝐀𝐌𝐔𝐑𝐀𝐈', `${pickRandom([nna, nn, md, yt])}`]], m)
+conn.sendButton(m.chat, botname, respon, pickRandom([img, img1, img2]), [['𝐌𝐄𝐍𝐔', `.menu`], ['𝐆𝐑𝐔𝐏𝐎𝐒', `.grupos`]], null, [['𝐒𝐀𝐌𝐔𝐑𝐀𝐈', `${pickRandom([nna, nn, md, yt, n2])}`]], m)
 //conn.sendFile(m.chat, imagen1, 'lp.jpg', respon, m, false, { contextInfo: { externalAdReply: {title: "𝘐𝘔𝘍𝘖𝘙𝘔𝘈𝘊𝘐𝘖𝘕 𝘈𝘊𝘌𝘙𝘊𝘈 𝘋𝘌𝘓 𝘉𝘖𝘛", body: "Click para entrar", sourceUrl: md, thumbnail: imagen3 }}})
 }//`
 
