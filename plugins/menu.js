@@ -522,7 +522,7 @@ if (command === 'menu1' || command === 'descarga') {
     
     
     conn.sendButton(m.chat, submenu, descargar, imagen1, 
-        [['𝙈𝙀𝙉𝙐 𝘾𝙊𝙉𝙋𝙇𝙀𝙏𝙊',${prefix}allmenu``], 
+        [['𝙈𝙀𝙉𝙐 𝘾𝙊𝙉𝙋𝙇𝙀𝙏𝙊',.allmenu``], 
          ['𝗩𝗘𝗟𝗢𝗖𝗜𝗗𝗔𝗗 ⚡', `.status`]],
         null, null, m);
 }
