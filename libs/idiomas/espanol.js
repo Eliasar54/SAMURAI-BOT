@@ -218,7 +218,7 @@ text20: (fb, md) => `╭─────────────┈⊷
 ╰┬────────────┈⊷
 ┌┤\`📌 REQUISITOS PARA LAS INSTALACION \`
 ┌┤❇️ _Dudas: ${fb}_
-┌┤❇️ _Tutoríal: https://youtu.be/OhbJjp0L2QA?si=ZqRgG3SGTRFSW6CH_
+┌┤❇️ _Tutoríal: https://www.youtube.com/@EliasarYT_
 ┌┤❇️ _1 GB de almacenamiento_
 ┌┤❇️ _Termux: https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file_
 ┌┤❇️ _GitHub: ${md}_
@@ -233,7 +233,7 @@ text20: (fb, md) => `╭─────────────┈⊷
 
 * apt update && apt upgrade && pkg update && pkg upgrade && pkg install bash && pkg install libwebp && pkg install git -y && pkg install nodejs -y && pkg install ffmpeg -y && pkg install wget && pkg install imagemagick -y && pkg install yarn
 
-* git clone https://github.com/elrebelde21/NovaBot-MD && cd NovaBot-MD && yarn && npm install
+* git clone https://github.com/Eliasar54/SAMURAI-BOT && cd SAMURAI-BOT && yarn && npm install
 
 * npm start
 
