@@ -522,7 +522,7 @@ if (command === 'menu1' || command === 'descarga') {
     
     
     conn.sendButton(m.chat, submenu, descargar, imagen1, 
-        [['𝘾𝘼𝙉𝘼𝙇 💯', `${n2}`], 
+        [['𝙈𝙀𝙉𝙐 𝘾𝙊𝙉𝙋𝙇𝙀𝙏𝙊',${prefix}allmenu``], 
          ['𝗩𝗘𝗟𝗢𝗖𝗜𝗗𝗔𝗗 ⚡', `.status`]],
         null, null, m);
 }
@@ -531,7 +531,7 @@ if (command === 'menu1' || command === 'descarga') {
 if (command == 'allmenu' || command == 'menucompleto') {
 m.react('⏱️') 
 let menu = `╔━━━━━━༺ ✘ ༻━━━━━━╗
-║◤━━━━ ⚔️ 𝑆𝑎𝑚𝑢𝑟𝑎𝑖 ⚔️ ━━━━◥
+║◤━━━ ⚔️ 𝑆𝑎𝑚𝑢𝑟𝑎𝑖 ⚔️ ━━━◥
 ║${lenguaje['smsWel']()} @${sender.split("@")[0]} ${user.registered === true ? 'ͧͧͧͦꙶͣͤ✓' : ''} 👋🏻
 ║✦ ──━━━━✥◈✥━━━━── ✦
 ║${lenguaje.menu.text} [ ${prefix} ]
@@ -918,7 +918,7 @@ let menu = `╔━━━━━━༺ ✘ ༻━━━━━━╗
 ├➸ >
 ├➸ => 
 *━━━━━━━✦✗✦━━━━━━━━࣭۫*`
-conn.sendButton(m.chat, menu, botname, imagen1, [['𝐈𝐍𝐅𝐎', `.status`], ['𝐂𝐀𝐍𝐀𝐋', `${n2}`]], null, [['𝐒𝐀𝐌𝐔𝐑𝐀𝐈', `${pickRandom([nna, nn, md, yt])}`]], m)
+conn.sendButton(m.chat, menu, botname, imagen1, [['𝐈𝐍𝐅𝐎', `.status`]], null, [['𝐒𝐀𝐌𝐔𝐑𝐀𝐈', `${pickRandom([nna, nn, md, yt, n2])}`]], m)
 /*conn.sendMessage(m.chat, { text: menu,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
