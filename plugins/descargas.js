@@ -38,7 +38,8 @@ const texto1 = `${lenguaje.descargar.text2}\n\n◉ ${lenguaje.descargar.title} $
 
 ➥ Link: ${yt_play[0].url}`.trim()
 
-await conn.sendButton(m.chat, texto1, botname, yt_play[0].thumbnail, [['🎧 𝗔𝗨𝗗𝗜𝗢 🎧', `.musica ${text}`], ['📹 𝗩𝗜𝗗𝗘𝗢 📹', `.video ${text}`]],null, null, [['𝐒𝐀𝐌𝐔𝐑𝐀𝐈', `${pickRandom([nna, nn, md, yt])}`]], m)
+await conn.sendButton(m.chat, texto1, botname, yt_play[0].thumbnail, [['🎧 𝗔𝗨𝗗𝗜𝗢 🎧', `.musica ${text}`], ['📹 𝗩𝗜𝗗𝗘𝗢 📹', `.video ${text}`]],null, null, m)}
+
 
 if (command == 'play3' || command == 'play4') {
 if (!text) return m.reply(lenguaje.descargar.text + ` *${prefix + command}* ozuna`) 
