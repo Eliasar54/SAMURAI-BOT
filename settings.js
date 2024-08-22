@@ -109,8 +109,8 @@ global.nn6 = 'https://chat.whatsapp.com/JHnIQUdCGBHHsA6naIGjHG' //test
 global.nn7 = 'https://chat.whatsapp.com/GFgaQyuU6Ux92CZ6WkrJV3' //Grupo ayuda sobre el bot
 global.nn8 = 'https://chat.whatsapp.com/JHnIQUdCGBHHsA6naIGjHG' //enlace YuGi-BOT
 global.multi = 'https://chat.whatsapp.com/CBY978TEw5N10tRhQiapZV' //Grupo náufrazapp
-global.nna2 = 'Em4Byf4w5VgHObPvZQlfnM'
-global.n2 = "https://whatsapp.com/channel/0029VadxAUkKLaHjPfS1vP36"
+global.nna2 = 'https://github.com/Eliasar54/SAMURAI-BOT'
+global.n2 = "https://whatsapp.com/channel/0029Vae6j714Y9loutP3Au29"
 //---------[ INFO ]--------- 
 global.info = { wait: '*⌛ _Cargando..._ ▬▭▭▭▭▭▭*', 
 waitt: '*⌛ _Cargando..._ ▬▬▭▭▭*', 
