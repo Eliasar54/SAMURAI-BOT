@@ -522,7 +522,7 @@ if (command === 'menu1' || command === 'descarga') {
     
     
     conn.sendButton(m.chat, submenu, descargar, imagen1, 
-        [['𝘾𝘼𝙉𝘼𝙇 💯', `.https://whatsapp.com/channel/0029Vae6j714Y9loutP3Au29`], 
+        [['𝘾𝘼𝙉𝘼𝙇 💯', `${n2}`], 
          ['𝗩𝗘𝗟𝗢𝗖𝗜𝗗𝗔𝗗 ⚡', `.status`]],
         null, null, m);
 }
@@ -918,7 +918,7 @@ let menu = `╔━━━━━━༺ ✘ ༻━━━━━━╗
 ├➸ >
 ├➸ => 
 *━━━━━━━✦✗✦━━━━━━━━࣭۫*`
-conn.sendButton(m.chat, menu, botname, imagen1, [['𝐈𝐍𝐅𝐎', `.status`], ['𝐂𝐀𝐍𝐀𝐋', `https://whatsapp.com/channel/0029Vae6j714Y9loutP3Au29`]], null, [['𝐒𝐀𝐌𝐔𝐑𝐀𝐈', `${pickRandom([nna, nn, md, yt])}`]], m)
+conn.sendButton(m.chat, menu, botname, imagen1, [['𝐈𝐍𝐅𝐎', `.status`], ['𝐂𝐀𝐍𝐀𝐋', `${n2}`]], null, [['𝐒𝐀𝐌𝐔𝐑𝐀𝐈', `${pickRandom([nna, nn, md, yt])}`]], m)
 /*conn.sendMessage(m.chat, { text: menu,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
