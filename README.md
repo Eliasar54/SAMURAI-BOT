@@ -3,5 +3,5 @@
 </div>
 
 <p align="center">
-  <img src="https://telegra.ph/file/01e614e57c9b96e940b09.jpg" alt="ELIASAR-YT" width="900" />
+  <img src="https://telegra.ph/file/31e89872f6c098cf8b161.jpg" alt="ELIASAR-YT" width="900" />
 </p>
