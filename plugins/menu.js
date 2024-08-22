@@ -516,16 +516,16 @@ if (command === 'menu' || command === 'Menu') {
 
 if (command === 'menu1' || command === 'descarga') {
     m.react('🚀');
-    
+
     // Selecciona una imagen aleatoriamente
-   // let randomImage = pickRandom([img1, img2, img, img3, img4, img5, img6, img7, img8, img9]);
-    
-    
+    // let randomImage = pickRandom([img1, img2, img, img3, img4, img5, img6, img7, img8, img9]);
+
     conn.sendButton(m.chat, submenu, descargar, imagen1, 
-        [['𝙈𝙀𝙉𝙐 𝘾𝙊𝙉𝙋𝙇𝙀𝙏𝙊',.allmenu``], 
-         ['𝗩𝗘𝗟𝗢𝗖𝗜𝗗𝗔𝗗 ⚡', `.status`]],
+        [['𝙈𝙀𝙉𝙐 𝘾𝙊𝙉𝙋𝙇𝙀𝙏𝙊', '.allmenu'], 
+         ['𝗩𝗘𝗟𝗢𝗖𝗜𝗗𝗔𝗗 ⚡', '.status']],
         null, null, m);
 }
+
 
 
 if (command == 'allmenu' || command == 'menucompleto') {
