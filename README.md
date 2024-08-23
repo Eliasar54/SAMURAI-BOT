@@ -60,3 +60,11 @@ Detener el bot apretado CTRL y aplastas Z en tu teclado, darle enter y escribe:
 ```bash
 npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
+### 🔰 NEXUS-HOST 
+<a href="https://nexus-host.shop"><img src="https://qu.ax/KFqK.jpg" height="125px"></a>
+### Información del Host
+
+- **Dashboard:** [`Aquí`](https://dash.nexus-host.shop)
+- **Panel:** [`Aquí`](https://panel.nexus-host.shop)
+- **Grupo de WhatsApp:** [`Aquí`](https://chat.whatsapp.com/DlErIXnbKfx4AvvyngFuSX)
+-
