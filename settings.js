@@ -83,7 +83,7 @@ global.author = `${vs}`
 global.img = "https://qu.ax/WlyB.jpg"
 global.img1 = 'https://qu.ax/WlyB.jpg'
 global.img2 = 'https://qu.ax/WlyB.jpg'
-global.vid1 = "https://qu.ax/WlyB.jpg"
+global.vid1 = "https://telegra.ph/file/4e1a3ae13b9bf62466560.jpg"
 
 global.imagen1 = "https://telegra.ph/file/18ef6770458bb6e8f34e2.jpg"
 global.imagen2 = "https://telegra.ph/file/c8167988aba0d9a51db70.jpg"
