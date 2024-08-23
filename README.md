@@ -14,6 +14,11 @@
 <a href="https://wa.me/message/WIOCUMWR26RZE1" target="blank"><img src="https://img.shields.io/badge/Creador-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 ) 
 
+<a href="https://whatsapp.com/channel/0029Vae6j714Y9loutP3Au29" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="30" height="30"/>
+    <strong>Ir al canal oficial</strong>
+</a>
+
 ------------------ 
  
 
