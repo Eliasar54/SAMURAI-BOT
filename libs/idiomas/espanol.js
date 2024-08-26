@@ -21,8 +21,8 @@ text6: `Código de 8 digitos.`,
 text7: `Escriba sólo el número de`, 
 text8: `la opción para conectarse.`, 
 text9: (chalk) => `NO SE PERMITE NÚMEROS QUE NO SEAN ${chalk.bold.greenBright("1")} O ${chalk.bold.greenBright("2")}, TAMPOCO LETRAS O SÍMBOLOS ESPECIALES.\n${chalk.bold.yellowBright("CONSEJO: COPIE EL NÚMERO DE LA OPCIÓN Y PÉGUELO EN LA CONSOLA.")}`, 
-text10: `🟢 Comience con el código de país de su número de WhatsApp, ejemplo: +59178862672`, 
-text11: `🟢 Ingresa el número que sera bot\nPor ejemplo: +59178862672`, 
+text10: `👾 Comience con el código de país de su número de WhatsApp, ejemplo: +59178862672`, 
+text11: `👾 Ingresa el número que sera bot\nPor ejemplo: +59178862672`, 
 text12: `❌ Asegúrese de agregar el código de país.`, 
 text13: `👑 CÓDIGO DE VINCULACIÓN 👑:` }
 
