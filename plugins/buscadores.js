@@ -156,49 +156,7 @@ const texttospeechurl = SpeakEngine.getAudioUrl(texttosay, {lang: "es", slow: fa
 conn.sendMessage(m.chat, { audio: { url: texttospeechurl }, contextInfo: { "externalAdReply": { "title": botname, "body": ``, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": md, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 m.react('🗣️')}
 
-if (command == 'chatgpt' || command == 'ia') {
-const translate = require('@vitalets/google-translate-api') 
-const {Configuration, OpenAIApi} = require('openai') 
-const configuration = new Configuration({organization: global.openai_org_id, apiKey: global.openai_key})
-const openaiii = new OpenAIApi(configuration)
-if (prefix == 'a' || prefix == 'A') return
-if (!text) return m.reply(`${lenguaje.lengua.ia} ${prefix + command} Recomienda un top 10 de películas de acción`) 
-try {
-conn.sendPresenceUpdate('composing', m.chat);
-let sistema1 = `Actuaras como un Bot de WhatsApp el cual fue creado por Eliasar YT, tu seras SAMURAI-BOT`;
-async function getOpenAIChatCompletion(texto) {
-const openaiAPIKey = global.openai_key;
-let chgptdb = global.chatgpt.data.users[m.sender];
-chgptdb.push({ role: 'user', content: texto });
-const url = "https://api.openai.com/v1/chat/completions";
-const headers = { "Content-Type": "application/json", "Authorization": `Bearer ${openaiAPIKey}` };
-const data = { "model": "gpt-3.5-turbo", "messages": [{ "role": "system", "content": sistema1 }, ...chgptdb, ]};
-const response = await fetch(url, {method: "POST", headers: headers, body: JSON.stringify(data)});
-const result = await response.json();
-const finalResponse = result.choices[0].message.content;
-return finalResponse;
-m.react('✉️')};
-let respuesta = await getOpenAIChatCompletion(text);
-if (respuesta == 'error' || respuesta == '' || !respuesta) return XD; // causar error undefined para usar otra api
-m.reply(`${respuesta}`.trim());
-} catch {
-try {
-const botIA222 = await openaiii.createCompletion({model: 'text-davinci-003', prompt: text, temperature: 0.3, max_tokens: 4097, stop: ['Ai:', 'Human:'], top_p: 1, frequency_penalty: 0.2, presence_penalty: 0});
-if (botIA222.data.choices[0].text == 'error' || botIA222.data.choices[0].text == '' || !botIA222.data.choices[0].text) return XD; // causar error undefined para usar otra api
-m.reply(botIA222.data.choices[0].text.trim());
-} catch {
-try {
-const syms1 = `Actuaras como un Bot de WhatsApp el cual fue creado por Eliasar YT, tu seras SAMURAI-BOT`
-const Empireapi1 = await fetch(`https://api.cafirexos.com/api/chatgpt?text=${text}&name=${m.name}&prompt=${syms1}`);
-const empireApijson1 = await Empireapi1.json();
-if (empireApijson1.resultado == 'error' || empireApijson1.resultado == '' || !empireApijson1.resultado) return XD; // causar error undefined para lanzar msg de error
-m.reply(`${empireApijson1.resultado}`.trim());
-} catch {
-try {
-let ia = await axios.get(`https://delirius-api-oficial.vercel.app/api/chatgpt?q=${text}`)
-await m.reply(ia.data.data)
-} catch {
-return m.reply(info.error)}}}}}
+if (command == 'chatgpt' || command == 'ia') { const translate = require('@vitalets/google-translate-api'); const { Configuration, OpenAIApi } = require('openai'); const configuration = new Configuration({ organization: global.openai_org_id, apiKey: global.openai_key }); const openaiii = new OpenAIApi(configuration); if (!text || text.trim() === '') return m.reply(`${lenguaje.lengua.ia} ${prefix + command} - Por favor, ingresa un mensaje a procesar.`); try { conn.sendPresenceUpdate('composing', m.chat); let sistema1 = `eres Samurai BOT un bot de WhatsApp echo por EliasarYT`; const userText = encodeURIComponent(text.trim()); const Empireapi1 = await fetch(`https://www.akira-host.store/api/chatgpt?text=${userText}&prompt=${encodeURIComponent(sistema1)}&apikey=${Akira-API}`); if (!Empireapi1.ok) return m.reply('Error al contactar la API, por favor inténtalo más tarde.'); const empireApijson1 = await Empireapi1.json(); if (empireApijson1.resultado == 'error' || !empireApijson1.resultado) return m.reply('Error al obtener respuesta.'); m.reply(`${empireApijson1.resultado}`.trim()); } catch (error) { console.error("Error al procesar el mensaje:", error); m.reply('Hubo un error al procesar tu solicitud.'); } }
 
 if (command == 'bard' || command == 'ia2') { 
 if (prefix == 'a' || prefix == 'A') return
